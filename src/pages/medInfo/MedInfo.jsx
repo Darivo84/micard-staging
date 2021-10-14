@@ -12,7 +12,7 @@ export default function MedInfo() {
 
   const PostData = () => {
     
-    fetch('/med', {
+    fetch('/api/med', {
       method: 'POST',
       headers: {
         'Content-Type':'application/json',

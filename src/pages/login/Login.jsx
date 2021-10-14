@@ -14,7 +14,7 @@ export default function Login() {
       alert("Your email address is invalid. Please try again.")
       return
     }
-    fetch("/login", {
+    fetch("/api/login", {
       method: "POST",
       headers: {
         "Content-Type":"application/json"

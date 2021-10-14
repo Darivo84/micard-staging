@@ -23,7 +23,7 @@ export default function BasicInfo() {
 
   const PostData = () => {
     
-    fetch('/basic', {
+    fetch('/api/basic', {
       method: 'POST',
       headers: {
         'Content-Type':'application/json',
