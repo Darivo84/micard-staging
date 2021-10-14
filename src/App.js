@@ -25,28 +25,21 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/">
-            {/* <Home /> */}
             {user ? <Redirect to="/" /> : <Login />}
           </Route>
           <Route path="/login">
             <Login />
-            {/* {user ? <Redirect to="/basic-info" /> : <Login />} */}
           </Route>
           <Route path="/signup">
             <Signup />
-            {/* {user ? <Redirect to="/basic-info" /> : <Signup />} */}
           </Route>
           <Route path="/basic-info">
             <BasicInfo />
-            {/* {user ? <BasicInfo /> : <Signup />} */}
           </Route>
           <Route path="/medical-info">
             <MedicalInfo />
-            {/* {user ? <MedicalInfo /> : <Login />} */}
           </Route>
           <Route>
-          {/* <Route exact path="/profile/:email"> */}
-            {/* {user ? <Profile /> : <Login />} */}
             <Profile />
           </Route>
         </Switch>
