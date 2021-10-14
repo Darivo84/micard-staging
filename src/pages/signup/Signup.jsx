@@ -20,10 +20,10 @@ export default function Signup() {
       return
     }
     
-    fetch('/signup', {
-      method: 'POST',
+    fetch("/signup", {
+      method: "POST",
       headers: {
-        'Content-Type':'application/json'
+        "Content-Type":"application/json"
       },
       body: JSON.stringify({
         firstName,
@@ -37,7 +37,7 @@ export default function Signup() {
         alert(data.error)
       } else {
         alert(data.message)
-        history.push('/login')
+        history.push("/login")
       }
     })
     .catch(err => {

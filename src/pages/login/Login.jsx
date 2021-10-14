@@ -14,10 +14,10 @@ export default function Login() {
       alert("Your email address is invalid. Please try again.")
       return
     }
-    fetch('/login', {
-      method: 'POST',
+    fetch("/login", {
+      method: "POST",
       headers: {
-        'Content-Type':'application/json'
+        "Content-Type":"application/json"
       },
       body: JSON.stringify({        
         email,
@@ -28,10 +28,10 @@ export default function Login() {
       if (data.error) {
         alert(data.error)
       } else {
-        localStorage.setItem('jwt', data.token)
-        localStorage.setItem('user', JSON.stringify(data.user))
+        localStorage.setItem("jwt", data.token)
+        localStorage.setItem("user", JSON.stringify(data.user))
         alert(`Welcome back! ${data.firstname}`)
-        history.push('/basic-info')
+        history.push("/basic-info")
       }
     })
     .catch(err => {
