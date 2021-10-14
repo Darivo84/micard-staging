@@ -25,8 +25,7 @@
     "yup": "^0.32.9"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
+    "start": "react-scripts start"
   },
   "eslintConfig": {
     "extends": [
