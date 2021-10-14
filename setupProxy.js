@@ -2,7 +2,10 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 
 module.exports = function(app) {
   app.use(
-    '/api',
+    '/login',
+    '/signup',
+    '/basic',
+    '/med',
     createProxyMiddleware({
       target: 'https://radiant-cliffs-18017.herokuapp.com',
       changeOrigin: true,
