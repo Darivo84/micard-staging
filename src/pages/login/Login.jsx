@@ -34,8 +34,8 @@ export default function Login() {
         history.push('/basic-info')
       }
     })
-    .catch(err => {
-      console.log(err);
+    .catch(error => {
+      console.log(error);
     })  
   }
 
