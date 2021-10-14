@@ -23,7 +23,7 @@ export default function BasicInfo() {
 
   const PostData = () => {
     
-    fetch('https://radiant-cliffs-18017.herokuapp.com/basic', {
+    fetch('/basic', {
       method: 'POST',
       headers: {
         'Content-Type':'application/json',

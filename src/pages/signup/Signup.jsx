@@ -20,7 +20,7 @@ export default function Signup() {
       return
     }
     
-    fetch('https://radiant-cliffs-18017.herokuapp.com/signup', {
+    fetch('/signup', {
       method: 'POST',
       headers: {
         'Content-Type':'application/json'
