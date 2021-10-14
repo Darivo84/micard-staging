@@ -12,7 +12,7 @@ export default function MedInfo() {
 
   const PostData = () => {
     
-    fetch('/med', {
+    fetch('https://radiant-cliffs-18017.herokuapp.com/med', {
       method: 'POST',
       headers: {
         'Content-Type':'application/json',
