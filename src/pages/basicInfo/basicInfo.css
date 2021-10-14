@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito';
+}
+
+.BasicLogoText {
+  font-size: 38px;
+  color: #c64156;
+  font-weight: bold;
+  text-align: center;
+}
+
+.BasicFormTitle {
+  font-size: 18px;
+  color: #733bc3;
+  font-weight: bold;
+  text-align: center;
+}
+
+.BasicFormLabel {
+  font-size: 13;
+  font-weight: bold;
+  text-align: left;
+  color: #c64156;
+  padding-bottom: 5;
+}
+
+.BasicGenderRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 20px; */
+  width: 100%;
+}
+
+.BasicGenderLinks {
+  color: #c64156;
+  text-align: center;
+  text-decoration: none;
+}
+
+.BasicGenderLinks:hover,
+.BasicGenderLinks:focus  {
+  color: #733bc3;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+.BasicGenderIcons:hover,
+.BasicGenderIcons:focus {
+  color: #733bc3;
+}
+
+.BasicInput {
+  background-color: #e5e7eb;
+  padding: 15px;
+  padding-left: 55px;
+  padding-right: 55px;
+  border-radius: 10px;
+  font-size: 16px;
+  height: 45;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.BasicButton {
+  padding: 15px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #c64156;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: none;
+  min-width: 100%;
+}
+
+.BasicLink {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: #c64156;
+}

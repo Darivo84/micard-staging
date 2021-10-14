@@ -1,0 +1,39 @@
+.post {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  margin: 30px 0;
+}
+
+.postWrapper {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postTop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.postTopLeft {
+  display: flex;
+  align-items: center;
+}
+
+.postUsername {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 10px;
+}
+
+.postBottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
