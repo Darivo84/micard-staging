@@ -20,7 +20,7 @@ export default function Signup() {
       return
     }
     
-    fetch("/signup", {
+    fetch("https://micardstaging.herokuapp.com/signup", {
       method: "POST",
       headers: {
         "Content-Type":"application/json"
