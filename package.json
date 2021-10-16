@@ -2,6 +2,10 @@
   "name": "micard-web",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "heroku-postbuild": "npm run install && npm run build"
+  },
   "dependencies": {
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
@@ -24,10 +28,6 @@
     "web-vitals": "^1.0.1",
     "yup": "^0.32.9"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "heroku-postbuild": "npm run install && npm run build"
-  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -45,13 +45,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "proxy": {
-    "/": {
-      "target": "https://radiant-cliffs-18017.herokuapp.com/",
-      "pathRewrite": {
-        "^/": "/"
-      }
-    }
   }
 }
