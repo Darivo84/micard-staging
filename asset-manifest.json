@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/micardgo/static/css/main.92d533e2.chunk.css",
-    "main.js": "/micardgo/static/js/main.320b69ee.chunk.js",
-    "main.js.map": "/micardgo/static/js/main.320b69ee.chunk.js.map",
+    "main.js": "/micardgo/static/js/main.e492c9c4.chunk.js",
+    "main.js.map": "/micardgo/static/js/main.e492c9c4.chunk.js.map",
     "runtime-main.js": "/micardgo/static/js/runtime-main.e2e69988.js",
     "runtime-main.js.map": "/micardgo/static/js/runtime-main.e2e69988.js.map",
     "static/css/2.0f1110e3.chunk.css": "/micardgo/static/css/2.0f1110e3.chunk.css",
-    "static/js/2.bfda9017.chunk.js": "/micardgo/static/js/2.bfda9017.chunk.js",
-    "static/js/2.bfda9017.chunk.js.map": "/micardgo/static/js/2.bfda9017.chunk.js.map",
+    "static/js/2.e9e96b2b.chunk.js": "/micardgo/static/js/2.e9e96b2b.chunk.js",
+    "static/js/2.e9e96b2b.chunk.js.map": "/micardgo/static/js/2.e9e96b2b.chunk.js.map",
     "index.html": "/micardgo/index.html",
     "static/css/2.0f1110e3.chunk.css.map": "/micardgo/static/css/2.0f1110e3.chunk.css.map",
     "static/css/main.92d533e2.chunk.css.map": "/micardgo/static/css/main.92d533e2.chunk.css.map",
-    "static/js/2.bfda9017.chunk.js.LICENSE.txt": "/micardgo/static/js/2.bfda9017.chunk.js.LICENSE.txt",
+    "static/js/2.e9e96b2b.chunk.js.LICENSE.txt": "/micardgo/static/js/2.e9e96b2b.chunk.js.LICENSE.txt",
     "static/media/Doctor.51748132.png": "/micardgo/static/media/Doctor.51748132.png",
     "static/media/Lunch.4bd9cec2.png": "/micardgo/static/media/Lunch.4bd9cec2.png",
     "static/media/MICardLogo-Grad.47e2c634.png": "/micardgo/static/media/MICardLogo-Grad.47e2c634.png"
@@ -19,8 +19,8 @@
   "entrypoints": [
     "static/js/runtime-main.e2e69988.js",
     "static/css/2.0f1110e3.chunk.css",
-    "static/js/2.bfda9017.chunk.js",
+    "static/js/2.e9e96b2b.chunk.js",
     "static/css/main.92d533e2.chunk.css",
-    "static/js/main.320b69ee.chunk.js"
+    "static/js/main.e492c9c4.chunk.js"
   ]
 }
